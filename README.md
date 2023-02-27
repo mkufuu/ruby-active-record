@@ -29,6 +29,23 @@ bundle exec rake db:migrate
 <br/>
 <br/>
 
+## Running the database seeds
+
+To initially run the database seed execute the following
+
+```bash
+bundle exec rake db:seed
+```
+
+To run the database seed again without duplicating the data execute the following
+
+```bash
+bundle exec rake db:seed:replant
+```
+
+<br/>
+<br/>
+
 ## Running the application
 
 Interact with the application through the CLI

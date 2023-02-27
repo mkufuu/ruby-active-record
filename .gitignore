@@ -1,4 +1,6 @@
 db/*
 !db/migrate
+!db/seeds.rb
+!db/schema.rb
 
 vendor
